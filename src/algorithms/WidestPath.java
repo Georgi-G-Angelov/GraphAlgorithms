@@ -1,6 +1,6 @@
 package algorithms;
 
-import java.util.Arrays;
+
 
 public class WidestPath {
   public static void main(String[] args) {

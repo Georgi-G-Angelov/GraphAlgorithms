@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ec7c98a-c2a7-4edd-8b74-16d42141dc41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/WidestPath.java" afterDir="false" />
+    <list default="true" id="3d647097-130e-4472-ab4b-d12df33ab977" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/TravellingSalesman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GraphAlgorithms.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GraphAlgorithms/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphAlgorithms/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GraphAlgorithms/algorithms/BellmanFord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphAlgorithms/algorithms/BellmanFord.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GraphAlgorithms/algorithms/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphAlgorithms/algorithms/Dijkstra.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GraphAlgorithms/graphs/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphAlgorithms/graphs/Graph.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GraphAlgorithms/graphs/GraphNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphAlgorithms/graphs/GraphNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GraphAlgorithms/graphs/GraphNodeDistanced.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphAlgorithms/graphs/GraphNodeDistanced.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/BellmanFord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/BellmanFord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/WidestPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/WidestPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1XdZokgnlSREKbLmr4hobzO9uxW" />
+  <component name="ProjectId" id="1Xf8SvYAxQSq8mtz7CkvlWh4CTk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,14 +36,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.WidestPath">
+  <component name="RunManager" selected="Application.TravellingSalesman">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="GraphAlgorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravellingSalesman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.TravellingSalesman" />
+      <module name="GraphAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -68,44 +73,53 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TravellingSalesman" />
         <item itemvalue="Application.WidestPath" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2ec7c98a-c2a7-4edd-8b74-16d42141dc41" name="Default Changelist" comment="" />
-      <created>1581378108573</created>
+      <changelist id="3d647097-130e-4472-ab4b-d12df33ab977" name="Default Changelist" comment="" />
+      <created>1581425791604</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581378108573</updated>
-      <workItem from="1581378111327" duration="4686000" />
+      <updated>1581425791604</updated>
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="405" key="GridCell.Tab.0.bottom" timestamp="1581383600443">
-      <screen x="0" y="0" width="1920" height="1038" />
+    <state width="1874" height="307" key="GridCell.Tab.0.bottom" timestamp="1581430527373">
+      <screen x="0" y="24" width="1920" height="1152" />
     </state>
-    <state width="1878" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1038@0.0.1920.1038" timestamp="1581383600443" />
-    <state width="1878" height="405" key="GridCell.Tab.0.center" timestamp="1581383600443">
-      <screen x="0" y="0" width="1920" height="1038" />
+    <state width="1874" height="307" key="GridCell.Tab.0.bottom/0.24.1920.1152@0.24.1920.1152" timestamp="1581430527373" />
+    <state width="1874" height="307" key="GridCell.Tab.0.center" timestamp="1581430527373">
+      <screen x="0" y="24" width="1920" height="1152" />
     </state>
-    <state width="1878" height="405" key="GridCell.Tab.0.center/0.0.1920.1038@0.0.1920.1038" timestamp="1581383600443" />
-    <state width="1878" height="405" key="GridCell.Tab.0.left" timestamp="1581383600442">
-      <screen x="0" y="0" width="1920" height="1038" />
+    <state width="1874" height="307" key="GridCell.Tab.0.center/0.24.1920.1152@0.24.1920.1152" timestamp="1581430527373" />
+    <state width="1874" height="307" key="GridCell.Tab.0.left" timestamp="1581430527372">
+      <screen x="0" y="24" width="1920" height="1152" />
     </state>
-    <state width="1878" height="405" key="GridCell.Tab.0.left/0.0.1920.1038@0.0.1920.1038" timestamp="1581383600442" />
-    <state width="1878" height="405" key="GridCell.Tab.0.right" timestamp="1581383600443">
-      <screen x="0" y="0" width="1920" height="1038" />
+    <state width="1874" height="307" key="GridCell.Tab.0.left/0.24.1920.1152@0.24.1920.1152" timestamp="1581430527372" />
+    <state width="1874" height="307" key="GridCell.Tab.0.right" timestamp="1581430527373">
+      <screen x="0" y="24" width="1920" height="1152" />
     </state>
-    <state width="1878" height="405" key="GridCell.Tab.0.right/0.0.1920.1038@0.0.1920.1038" timestamp="1581383600443" />
+    <state width="1874" height="307" key="GridCell.Tab.0.right/0.24.1920.1152@0.24.1920.1152" timestamp="1581430527373" />
   </component>
 </project>
