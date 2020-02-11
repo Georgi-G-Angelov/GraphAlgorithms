@@ -2,10 +2,9 @@ package algorithms;
 
 import graphs.Graph;
 import graphs.GraphNode;
-import org.jetbrains.annotations.NotNull;
 
 public class Dijkstra {
-    public static void Dijkstra(String node, @NotNull Graph graph){
+    public static void Dijkstra(String node, Graph graph){
         System.out.println("Dijkstra's algorithm:");
         boolean known[] = new boolean[graph.nodes.size()];
         int cost[] = new int[graph.nodes.size()];
